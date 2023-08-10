@@ -1,0 +1,26 @@
+.nav__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+@media screen and (min-width: 0px) {
+    .nav__list {
+        padding-top: 5%;
+    }
+}
+
+
+@media screen and (min-width: 768px) {
+    .nav__list {
+        padding-top: 3%;
+    }
+}
+
+
+@media screen and (min-width: 1024px) {
+    .nav__list {
+        padding-top: 2%;
+    }
+}

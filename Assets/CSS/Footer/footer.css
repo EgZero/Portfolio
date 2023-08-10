@@ -1,0 +1,25 @@
+
+@media screen and (min-width:0px) {
+    .footer{
+        margin-top: 1rem;
+        text-align: center;
+        padding: 1rem 0;
+        font-weight: 500;
+        background-color: #5c5c5c;
+        font-family: var(--texto);
+        line-height: 1.7;
+        border-top: 4px groove #111;
+    }
+
+    .footer__autor,
+    .copyright__symbol{
+        font-weight: 600;
+    }
+
+}
+
+
+@media screen and (min-width:1023px) {
+    .footer{
+    }
+}

@@ -1,0 +1,40 @@
+.contact__button{
+    font-family: var(--texto);
+    font-weight: bolder;
+    color: #fcfcfc;
+    background-color: #5c5c5c;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 30px;
+    margin-top: .5rem;
+}
+
+.contact__button:active{
+    background: linear-gradient(to bottom, #1c1c1c, #5b5b5b);
+}
+
+.contact__button:hover{
+    background-color: #1c1c1c;
+}
+
+@media screen and (min-width:0px) {
+    .contact__button{
+        padding: 8px 30px;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .contact__button{
+        width: 60%;
+        margin-left: .8rem;
+    }
+
+}
+
+@media screen and (min-width:768px) {
+    .contact__button{
+        width: 40%;
+        font-size: 1.1rem;
+        padding: 10px 30px;
+    }
+}

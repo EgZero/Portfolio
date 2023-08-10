@@ -1,0 +1,9 @@
+.input-message-error{
+    display: none;
+    font-family: var(--texto);
+    font-weight: 400;
+    text-align: right;
+    margin-right: 0.8rem;
+    line-height: normal;
+    color: #9d0507;
+}

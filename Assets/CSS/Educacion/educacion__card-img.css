@@ -1,0 +1,17 @@
+
+
+.educacion__card-img{
+    height: 70%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.educacion__img-Egg{
+    background-image:url(../../IMG/Formacion\ Academica/Fundacion_EGG-Logo.svg)
+}
+
+.educacion__img-Alura{
+    background-image:url(../../IMG/Formacion\ Academica/Alura_Cursos-Logo.png);
+    margin-bottom: 1rem
+}

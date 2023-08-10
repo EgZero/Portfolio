@@ -1,0 +1,6 @@
+.nav{
+    font-family: var(--titulos);
+    background: linear-gradient(to bottom, #5c5c5c, #fcfcfc);
+    border-top: 4px groove #111;
+}
+

@@ -1,0 +1,19 @@
+.proyect__boton{
+    display: inline-block;
+    margin: 0.5rem;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-family: var(--texto);
+    font-weight: bold;
+}
+
+
+.proyect__boton--repositorio ,.proyect__boton--repositorio:active{
+    background-color: #cdcdcd;
+    color: #111;
+}
+
+.proyect__boton--demo ,.proyect__boton--demo:active{
+    background-color: #5c5c5c;
+    color: #fcfcfc;
+}

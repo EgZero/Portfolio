@@ -1,0 +1,14 @@
+.skills__list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+@media screen and (min-width: 768px) {
+
+    .skills__list {
+        justify-content: center ;
+        column-gap: 1.1rem; 
+    }
+}

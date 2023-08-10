@@ -1,0 +1,46 @@
+.aboutMe__socials {
+    display: flex;
+    align-items: center;
+}
+
+.aboutMe__social-link,
+.aboutMe__social-link:active {
+    color: var(--texto);
+    text-decoration: none;
+}
+
+@media screen and (min-width:0px) {
+    .about-me__content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .aboutMe__socials {
+        justify-content: space-evenly;
+        width: 80%;
+        font-size: 2rem;
+        margin-bottom: 1.2rem;
+        order: 100;
+    }
+
+}
+
+@media screen and (min-width:768px) {
+    .aboutMe__socials {
+        justify-content: flex-end;
+        width: 50%;
+        gap: 1rem;
+        margin-bottom: .8rem;
+        order: 0;
+        align-self: flex-end;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .aboutMe__socials {
+        width: 60%;
+        gap: 1.5rem;
+        margin: 1.4rem 0 0 0 ;
+    }
+}

@@ -1,0 +1,22 @@
+.contact__input{
+    font-family: var(--texto);
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #111;
+    resize: none;
+}
+
+.contact__input__error{
+    border-color: #9d0507;
+}
+
+@media screen and (min-width: 0px){
+    .contact__input{
+        font-size: 0.9rem;
+    }
+}
+@media screen and (min-width: 1024px){
+    .contact__input-remitente{
+        width: 40%;
+    }
+}

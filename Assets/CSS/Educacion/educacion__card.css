@@ -1,0 +1,54 @@
+
+
+@media screen and (min-width:0px) {
+    .educacion__card{
+        display: flex;
+        flex-direction: column;
+        height: 210px;
+        background-color: #fcfcfc;
+        margin-bottom: 1.2rem;
+        border-radius: 10px ;
+        box-shadow: 2px 2px 10px #000;
+        padding-top: 1rem;
+    }
+    
+    .educacion__card-texto{
+        border-top: 2px solid #cdcdcd;
+        padding: .5rem 1rem 1rem;
+        background-color: #cdcdcd;
+        
+    }
+
+
+    .educacion__card-titulo{
+        font-family: var(--titulos);
+        font-size: 1.2rem;
+        font-weight: bold;
+        margin-bottom: .5rem;
+    }
+    
+    .educacion__card-descripcion{
+        font-family: var(--texto);
+    }
+}
+
+@media screen and (min-width:768px){
+    .educacion__card{
+        margin: 1.5rem auto;
+        max-width: 400px;
+    }
+}
+
+@media screen and (min-width:1024px){
+    .skills__educacion{
+        margin-bottom: 1.5rem;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1.5rem;
+    }
+    .educacion__card{
+        margin: 0 auto;
+        flex-grow: 1;
+        width: 400px;
+    }
+}

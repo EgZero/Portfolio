@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>perfil</title>
+    
+    
+    <link href="https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Quicksand:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="Assets/CSS/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/CSS/general.css">
+    <!-- header -->
+    <link rel="stylesheet" type="text/css" href="Assets/CSS/Header/header.css">
+
+    <!-- Navigation Bar -->
+    <link rel="stylesheet" type="text/css" href="Assets/CSS/Nav/nav.css">
+    <link rel="stylesheet" type="text/css" href="Assets/CSS/Nav/nav__list.css">
+    <link rel="stylesheet" type="text/css" href="Assets/CSS/Nav/nav__link.css">
+
+    <!-- About Me Assets -->
+    <link rel="stylesheet" type="text/css" href="Assets/CSS/about-me/aboutMe.css">
+    <link rel="stylesheet" type="text/css" href="Assets/CSS/about-me/aboutMe__title.css">
+    <link rel="stylesheet" type="text/css" href="Assets/CSS/about-me/aboutMe__text.css">
+    <link rel="stylesheet" type="text/css" href="Assets/CSS/about-me/aboutMe__img.css">
+    <link rel="stylesheet" type="text/css" href="Assets/CSS/about-me/aboutMe__socials.css">
+
+    <!-- Skills -->
+    <link rel="stylesheet" type="text/css" href="Assets/CSS/Skills/skills.css">
+    <link rel="stylesheet" type="text/css" href="Assets/CSS/Skills/skills_title.css">
+    <link rel="stylesheet" type="text/css" href="Assets/CSS/Skills/skills__list.css">
+    <link rel="stylesheet" type="text/css" href="Assets/CSS/Skills/skill__item.css">
+    <link rel="stylesheet" type="text/css" href="Assets/CSS/Skills/skill__item-title.css">
+    <link rel="stylesheet" type="text/css" href="Assets/CSS/Skills/skill__item-img.css">
+
+    <!-- Educacion -->
+    <link rel="stylesheet" type="text/css" href="Assets/CSS/Educacion/educacion__titulo.css">
+    <link rel="stylesheet" type="text/css" href="Assets/CSS/Educacion/educacion__card.css">
+    <link rel="stylesheet" type="text/css" href="Assets/CSS/Educacion/educacion__card-img.css">
+
+    <!-- Proyects -->
+    <link rel="stylesheet" type="text/css" href="Assets/CSS/Proyects/proyects.css">
+    <link rel="stylesheet" type="text/css" href="Assets/CSS/Proyects/proyects__titulo.css">
+    <link rel="stylesheet" type="text/css" href="Assets/CSS/Proyects/proyects__list.css">
+    <link rel="stylesheet" type="text/css" href="Assets/CSS/Proyects/proyect__item.css">
+    <link rel="stylesheet" type="text/css" href="Assets/CSS/Proyects/proyect__tittle.css">
+    <link rel="stylesheet" type="text/css" href="Assets/CSS/Proyects/proyect__descripcion.css">
+    <link rel="stylesheet" type="text/css" href="Assets/CSS/Proyects/Proyect__boton.css">
+    <link rel="stylesheet" type="text/css" href="Assets/CSS/Proyects/proyect__img.css">
+
+    <!-- contact -->
+    <link rel="stylesheet" type="text/css" href="Assets/CSS/Contact/contact.css">
+    <link rel="stylesheet" type="text/css" href="Assets/CSS/Contact/contact__title.css">
+    <link rel="stylesheet" type="text/css" href="Assets/CSS/Contact/contact__card.css">
+    <link rel="stylesheet" type="text/css" href="Assets/CSS/Contact/contact__img.css">
+    <link rel="stylesheet" type="text/css" href="Assets/CSS/Contact/contact__form.css">
+    <link rel="stylesheet" type="text/css" href="Assets/CSS/Contact/Contact-Input/contact__input-container.css">
+    <link rel="stylesheet" type="text/css" href="Assets/CSS/Contact/Contact-Input/input-label.css">
+    <link rel="stylesheet" type="text/css" href="Assets/CSS/Contact/Contact-Input/contact__input.css">
+    <link rel="stylesheet" type="text/css" href="Assets/CSS/Contact/Contact-Input/input-message-error.css">
+    <link rel="stylesheet" type="text/css" href="Assets/CSS/Contact/contact__button.css">
+    <link rel="stylesheet" href="Assets/CSS/variables.css">
+    
+    <!-- Footer -->
+    <link rel="stylesheet" href="Assets/CSS/Footer/footer.css">
+    <link rel="stylesheet" href="Assets/CSS/Footer/footer-autor.css">
+
+    
+    <script src="https://kit.fontawesome.com/1e425d2547.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header class="header container">
+        <div class="header__banner" role="banner">
+            <h1 class="banner__text" >
+                <span class="header__banner-name ">ANGEL ORELLANA</span>
+                <p class="header__banner-job">front-end web developer</p>
+            </h1>
+        </div>
+    </header>
+
+    <main>
+
+        <nav class="nav container">
+            <ul class="nav__list">
+                <li class="nav__link nav__link--selected" data-navItem="aboutMe">
+                    <span class="nav__link-text">About me</span>
+                </li>
+                <li class="nav__link " data-navItem="skills">
+                    <span class="nav__link-text">My Skills</span>
+                </li>
+                <li class="nav__link  " data-navItem="proyects">
+                    <span class="nav__link-text">My Proyects</span>
+                </li>
+                <li class="nav__link " data-navItem="contact">
+                    <span class="nav__link-text">Contact Me</span>
+                </li>
+            </ul>
+        </nav>
+
+        <section class="aboutMe container active" data-section="aboutMe">
+                <img class="about-me__img" src="Assets/IMG/About-Me/myAvatar.svg" alt="Foto de perfil">
+            <br>
+            <div class="about-me__content">
+                <div class="aboutMe__socials">
+                    <a href="#" class="aboutMe__social-link fab fa-linkedin"></a>
+                    <a href="#" class="aboutMe__social-link fa-brands fa-square-facebook"></a>
+                    <a href="#" class="aboutMe__social-link fa-brands fa-square-instagram"></a>
+                    <a href="#" class="aboutMe__social-link fab fa-github"></a>
+                </div>
+                <h2 class="section__titulo about-me__title">About Me</h2>
+                <p class="about-me__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic unde similique qui
+                    provident
+                    totam quae quibusdam beatae labore reprehenderit placeat fugit est rerum accusantium dolorum
+                    alias magnam, soluta tenetur quisquams.
+                </p>
+            </div>
+            
+        </section>
+
+        <section class="skills container " data-section="skills">   
+            <h2 class="section__titulo skills__title">Skills</h2>
+            <ul class="skills__list">
+                <li class="skill__item">
+                    <div class="skill__item-img skill__item-img--HTML"></div>
+                    <span class="skill__item-title">HTML</span>
+                </li>
+                <li class="skill__item">
+                    <div class="skill__item-img skill__item-img--CSS"></div>
+                    <span class="skill__item-title">CSS</span>
+                </li>
+                <li class="skill__item">
+                    <div class="skill__item-img skill__item-img--JS"></div>
+                    <span class="skill__item-title">JavaScript</span>
+                </li>
+                <li class="skill__item">
+                    <div class="skill__item-img skill__item-img--React"></div>
+                    <span class="skill__item-title">React</span>
+                </li>
+            </ul>
+                <h2 class="section__titulo educacion__titulo">Formacion Academica</h2>
+            <div class="skills__educacion">
+                <div class="educacion__card">
+                    <div class="educacion__card-img educacion__img-Egg"></div>
+                    <div class="educacion__card-texto">
+                        <p  class="educacion__card-titulo">Fundamentos de la Programacion</p>
+                        <span class="educacion__card-descripcion">2023 - EGG</span>
+                    </div>
+                </div>
+                <div class="educacion__card">
+                    <div class="educacion__card-img educacion__img-Alura"></div>
+                    <div class="educacion__card-texto">
+                        <p  class="educacion__card-titulo">Desarrollo Web Front-End</p>
+                        <span class="educacion__card-descripcion">En curso - Alura</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="proyects container " data-section="proyects">
+            <H2 class="section__titulo proyects__titulo">Mis Proyectos</H2>
+            <ul class="proyects__list">
+                <li class="proyect__item">
+                    <img src="Assets/Projects_Thumbnails/TextCrypt.jpg" alt="TextCrypt - Encriptador de Texto" class="proyect__img">
+                    <p class="proyect__title">Encriptador de Texto</p>
+                    <span class="proyect__descripcion">Challenge Alura</span>
+                    <div class="proyect__contenedor-botones">
+                        <a href="https://github.com/EgZero/TextCrypt" class="proyect__boton proyect__boton--repositorio">Repositorio</a>
+                        <a href="https://text-crypt.vercel.app/" class="proyect__boton proyect__boton--demo">Ver Demo</a>
+                    </div>
+                </li>
+                <li class="proyect__item">
+                    <img src="" alt="Agenda Web" class="proyect__img">
+                    <p class="proyect__title">Planificador de tareas Web</p>
+                    <span class="proyect__descripcion">Proyecto Personal</span>
+                    <div class="proyect__contenedor-botones">
+                        <a href="#" class="proyect__boton proyect__boton--repositorio">Repositorio</a>
+                        <a href="#" class="proyect__boton proyect__boton--demo">Ver Demo</a>
+                    </div>
+                </li>
+                <li class="proyect__item">
+                    <img src="Assets/Projects_Thumbnails/MyOrg.jpg" alt="My Org" class="proyect__img">
+                    <p class="proyect__title">My Org</p>
+                    <span class="proyect__descripcion">Proyecto de Clase - Alura</span>
+                    <div class="proyect__contenedor-botones">
+                        <a href="https://github.com/EgZero/My-Org" class="proyect__boton proyect__boton--repositorio">Repositorio</a>
+                        <a href="https://my-org-gray.vercel.app/" class="proyect__boton proyect__boton--demo">Ver Demo</a>
+                    </div>
+                </li>
+            </ul>
+        </section>
+
+        <section class="contact container " data-section="contact">
+            <h2 class="section__titulo contact__title">contacto</h2>
+            <div class="contact__card">
+                <div class="contact__img-container">
+                    <i class="fa-solid fa-envelope contact__img--mobile"></i>
+                    <div class="contact__img--desk"></div>
+                </div>
+                <form class="contact__form" action="">
+                    <div class="contact__input-container">
+                        <label for="name" class="input-label">Nombre</label>
+                        <input name="name" id="name" class="contact__input  contact__input-remitente" type="text" required data-tipo="nombre">
+                        <span class="input-message-error">Este campo no es valido</span>
+                    </div>
+                    <div class="contact__input-container">
+                        <label for="email" class="input-label">Email</label>
+                        <input name="email" id="email" class="contact__input contact__input-remitente" type="email"  required data-tipo="email">
+                        <span class="input-message-error">Este campo no es valido</span>
+                    </div>
+                    <div class="contact__input-container">
+                        <label for="message" class="input-label">Mensaje</label>
+                        <textarea name="message" id="message"class="contact__input" rows="10" required data-tipo="mensaje"></textarea>
+                        <span class="input-message-error">Este campo no es valido</span>
+                    </div>
+                <button type="submit" class="contact__button">Enviar</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <p>Desarrollado por <i class="footer__autor">Angel Orellana</i></p>
+        <p class="copyright"><i class="copyright__symbol">&#169; 2023</i> - Todos los derechos reservados  </p>
+    </footer>
+    <script src="Assets/JS/index.js" type="module"></script>
+</body>
+
+<!-- <a href='https://.pngtree.com/free-backgrounds'>fotos de fondo gratis de .pngtree.com/</a>
+<a href="https://es.pngtree.com/freebackground/taobao-tmall-men-s-day-promotional-poster-men-s-wear_1029048.html?sol=downref&id=bef">fondo gratis de .pngtree.com </a>
+
+-->

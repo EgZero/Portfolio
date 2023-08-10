@@ -1,0 +1,7 @@
+
+.skill__item-title{
+    font-size: 1.5rem;
+    font-family: var(--texto);
+    font-weight: bold;
+    display: block;
+}

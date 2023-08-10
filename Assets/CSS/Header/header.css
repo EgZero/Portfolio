@@ -1,0 +1,103 @@
+.banner__text {
+    text-shadow: #fcfcfc -2px 2px;
+    color: #111;
+}
+
+.header__banner-name {
+    font-weight: bolder;
+    font-family: var(--titulos);
+    display: block;
+}
+
+.header__banner-job {
+    font-family: var(--texto);
+    font-weight: 400;
+    display: inline-block;
+    font-variant: small-caps;
+}
+
+
+.header__banner {
+    background-image: url(../../IMG/Banner/Fondo__Blanco.jpg);
+    background-size: cover;
+}
+
+
+@media screen and (min-width:0px) {
+
+    .header {
+        padding: 0;
+    }
+
+    .header__banner {
+        padding-top: 20px;
+    }
+
+    .banner__text {
+        line-height: 1.2;
+    }
+
+
+    .header__banner-name {
+        font-size: 3rem;
+    }
+
+    .header__banner-job {
+        font-size: 1.3rem;
+        margin: 15px 0;
+    }
+}
+
+@media screen and (min-width:768px){
+
+    .header {
+        height: 35vh;
+    }
+
+    .banner__text, .header__banner{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    .header__banner {
+        padding: 0;
+        height: 100%;
+    }
+
+    .header__banner-name{
+        width: 50%;
+        font-size: 3.5rem;
+    }
+
+    .header__banner-job{
+        width: 40%;
+        font-size: 1.5rem;
+    }
+
+
+}
+
+@media screen and (min-width:1024px){
+
+    .header {
+        height: 30vh;
+    }
+
+    .banner__text{
+        display: block;
+    }
+
+    .header__banner-name{
+        display: inline;
+        font-size: 4.2rem;
+        letter-spacing: .3rem;
+    }
+
+    .header__banner-job{
+        font-size: 1.9rem;
+    }
+
+
+}

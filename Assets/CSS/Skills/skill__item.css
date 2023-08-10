@@ -1,0 +1,52 @@
+.skill__item {
+    margin-bottom: 1.5rem;
+    background-color: #CDCDCD;
+    border-radius: 20px;
+}
+
+
+@media screen and (min-width: 0px) {
+    .skill__item {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 6.5rem;
+        width: 80%;
+        box-shadow: -3px -3px 3px #666;
+    }
+
+    .skill__item:nth-child(even) {
+        position: relative;
+        left: 20%;
+        box-shadow: 3px -3px 3px #666;
+    }
+
+    .skill__item:nth-child(even).skill__item-title {
+        order: -1;
+    }
+
+}
+
+@media screen and (min-width: 768px) {
+    .skill__item {
+        flex-grow: 1;
+        display: block;
+        width: 9.7rem;
+        padding: 1rem;
+        box-shadow: 3px 3px 3px #666;
+    }
+
+
+    .skill__item:nth-child(even) {
+        position: static;
+        box-shadow: 3px 3px 3px #666;
+    }
+
+}
+
+@media screen and (min-width: 768px) {
+    .skill__item {
+        max-width: 40%;
+    }
+
+}

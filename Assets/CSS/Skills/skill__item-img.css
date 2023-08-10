@@ -1,0 +1,29 @@
+
+
+.skill__item-img{
+    background: no-repeat center;
+    background-size: contain;
+    margin: .3rem 0;
+    width: 100px;
+    height: 75%;
+}
+
+@media screen and (min-width: 768px) {
+
+    .skill__item-img{
+        margin: .3rem auto;
+    }
+}
+
+.skill__item-img--HTML{
+    background-image: url(../../IMG/Skills/HTML.svg);
+}
+.skill__item-img--CSS{
+    background-image: url(../../IMG/Skills/CSS.svg);
+}
+.skill__item-img--JS{
+    background-image: url(../../IMG/Skills/JS.svg);
+}
+.skill__item-img--React{
+    background-image: url(../../IMG/Skills/REACT.svg);
+}

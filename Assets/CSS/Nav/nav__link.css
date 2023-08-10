@@ -1,0 +1,28 @@
+
+.nav__link{
+    margin-bottom: 1.5rem;
+    transform: skewX(45deg);
+    padding: 5px 10px;
+}
+
+
+.nav__link-text{
+    display: inline-block;
+    transform: skewX(-45deg);
+    user-select: none;
+}
+
+.nav__link:hover , .nav__link--selected{
+    color: #fcfcfc;
+    background: linear-gradient(to top, #222,transparent);
+    border-image: linear-gradient(to top, #000, transparent,transparent) 1;
+    border-bottom: 3px solid #000;
+    border-left: 3px solid #000;
+    transition: all .2s;
+}
+
+@media screen and (min-width:1024px) {
+    .nav__link-text{
+        font-size:1.1rem;
+    }
+} 

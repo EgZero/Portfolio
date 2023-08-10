@@ -1,0 +1,27 @@
+@media screen and (min-width:0px) {
+    .contact__card{
+        display: flex ;
+        flex-direction: column;
+    }    
+}
+
+@media screen and (min-width:768px) {
+    .contact__card{
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }    
+    .contact__img-container{
+        flex-grow: 1;
+    } 
+    .contact__form{
+        flex-grow: 1;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .contact__card{
+        align-items: initial;
+    }    
+
+}
